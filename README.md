@@ -45,4 +45,4 @@ https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/hosts
 
 ## 访问量
 
-![](http://profile-counter.glitch.me/BlueSkyClouds/count.svg)
+![](http://profile-counter.glitch.me/rentianyu_Ad-set-hosts/count.svg)
