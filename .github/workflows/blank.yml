@@ -17,7 +17,7 @@ jobs:
       run: |
         sudo rm -rf /etc/localtime
         sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-        sudo apt-get install -y dos2unix
+        sudo apt-get install -y dos2unix cut
         bash update_action.sh
     - name: Commit files
       run: |
