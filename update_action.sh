@@ -5,7 +5,7 @@ rm -f ./hosts.txt
 
 t=hosts.txt
 f=hosts
-a=adguard.txt
+a=adg.txt
 
 curl -s https://gitee.com/qiusunshine233/hikerView/raw/master/ad_v1.txt > $t
 sed -i 's/\&\&/\n/g' $t
@@ -31,7 +31,7 @@ dos2unix $t
 # 保留必要host
 sed -i '/^\(127\|0\|::\)/!d;s/0.0.0.0/127.0.0.1/g;s/#.*//g;s/\s\{2,\}//g;/tencent\|c\.pc\|xmcdn\|::1l\|::1i\|googletagservices\|zhwnlapi\|samizdat/d' $t
 
-sort -u $t | sed "1d;s/127.0.0.1 \(.*\) /\1/g;s/^/||/g;s/$/^/g" > $a
+cat $t | sort -u | sed "1d;s/127.0.0.1 \(.*\) /\1/g;s/^/||/g;s/$/^/g" > $a
 
 # 加入Github520
 curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts >> $t
