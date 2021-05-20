@@ -29,8 +29,8 @@
 ## 3.其他版本
 - `AdGuard` 版（只是把原hosts加入到过滤列表）   
 
-地址：[https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard.txt](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard.txt)   
-镜像：[https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/adguard.txt](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/adguard.txt)
+地址：[https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adg.txt](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adg.txt)   
+镜像：[https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/adg.txt](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/adg.txt)
 
 ## 3. 在此致谢以下引用的hosts源以及@WQY916提供的帮助
 
