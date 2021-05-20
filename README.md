@@ -23,7 +23,6 @@
 
 
 地址：[https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts)   
-   
 镜像：[https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/hosts](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/hosts)   
 
 ## 3.其他版本
