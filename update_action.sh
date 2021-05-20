@@ -3,9 +3,9 @@ rm -f ./hosts.txt
 
 # 下载去广告hosts合并并去重
 
-t=./hosts.txt
-f=./hosts
-a=./adguard.txt
+t=hosts.txt
+f=hosts
+a=adguard.txt
 
 curl -s https://gitee.com/qiusunshine233/hikerView/raw/master/ad_v1.txt > $t
 sed -i 's/\&\&/\n/g' $t
@@ -38,7 +38,7 @@ curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts >>
 sed -i '/GitHub520/d;/^127.0.0.1 $/d' $t
 
 # 更新hosts
-(echo -e "# `date '+%Y-%m-%d %T'`\n# 小贝塔自用，请勿商用\n\n" && sort -u $t) >$f&&rm $t&&echo "更新hosts成功"||echo "更新hosts失败..."
+(echo -e "# `date '+%Y-%m-%d %T'`\n# 小贝塔自用，请勿商用\n\n" && sort -u $t) > $f && rm $t && echo "更新hosts成功" || echo "更新hosts失败..."
 
 
 # 推送到GitHub
