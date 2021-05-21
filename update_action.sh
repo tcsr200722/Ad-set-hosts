@@ -35,6 +35,7 @@ EOF
 
 # Github520 hosts
 curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh
+curl -s http://file.trli.club/dns/ad-hosts.txt | sed "/==/d;/^$/d;1d" > $f
 
 # 转换换行符
 dos2unix *
@@ -63,7 +64,6 @@ adguard $t > $an
 
 
 # 获得拓展去重版 host
-curl -s http://file.trli.club/dns/ad-hosts.txt | sed "/==/d;/^$/d;1d" > $f
 cat $t $f | sort -u -o $f
 sed -i "/^127.0.0.1$/d;/^0.0.0.0$/d;/^\s*$/d" $f
 manslaughter $f
