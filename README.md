@@ -28,8 +28,8 @@
 
 |        | hosts                                                        | AdGuard                                                      |
 | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 标准版 | [Github版](hosts)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/hosts) | [Github版](adguard)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/adguard) |
-| 拓展版 | [Github版](hosts-full)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/hosts-full) | [Github版](adguard-full)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/adguard-full) |
+| 标准版 | [Github版](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/hosts) | [Github版](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/adguard) |
+| 拓展版 | [Github版](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts-full)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/hosts-full) | [Github版](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard-full)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/adguard-full) |
 
 ## 3. 在此致谢以下引用的hosts源以及@WQY916提供的帮助
 
