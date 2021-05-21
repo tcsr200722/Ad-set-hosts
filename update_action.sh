@@ -69,6 +69,8 @@ adguard $t > $an
 cat $t $f | sort -u -o $f
 sed -i "/^127.0.0.1$/d;/^0.0.0.0$/d;/^\s*$/d" $f
 manslaughter $f
+# 删除 . 或 * 开头的
+sed -i "/^\.\|^\*/d" $f
 
 # 获得拓展版 hosts
 (echo -e $statement && sed "s/^/127.0.0.1 /g" $f && cat gh) > $hf
