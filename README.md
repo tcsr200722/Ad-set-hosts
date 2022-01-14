@@ -20,16 +20,12 @@
 
 - 安卓直接替换`/system/etc/hosts`，或用 `Magisk` 模块刷入
 - 电脑勿用，`hosts` 文件过大会造成电脑卡顿
-- 
 - `AdGuard` 版（只是把原hosts加入到过滤列表）
-- 拓展版是因群友的告知，在征得 酷安[@冷莫](http://www.coolapk.com/u/701839)作者 同意之后而加入其 [hosts](http://dns.trli.club/hosts.html) 后的整合版
-- 酷安[@冷莫](http://www.coolapk.com/u/701839) 建议拓展版请配合白名单使用
+- `Github版` 文件地址是GitHub的，镜像版是 `fastgit.org` 的，方便国内访问
 
-
-|        | hosts                                                        | AdGuard                                                      |
-| ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 标准版 | [Github版](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/hosts) | [Github版](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/adguard) |
-| 拓展版 | [Github版](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts-full)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/hosts-full) | [Github版](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard-full)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/adguard-full) |
+| hosts                                                        | AdGuard                                                      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Github版](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/hosts) | [Github版](https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard)、[镜像版](https://raw.fastgit.org/rentianyu/Ad-set-hosts/master/adguard) |
 
 ## 3. 在此致谢以下引用的hosts源以及@WQY916提供的帮助
 
@@ -37,14 +33,19 @@
 2. yhosts：https://github.com/VeleSila/yhosts   
 3. 大圣净化：https://github.com/jdlingyu/ad-wars 
 4. 1024_hosts：https://github.com/Goooler/1024_hosts   
-5. ~~neoHosts完整版：https://hosts.nfz.moe~~   
-6. 小贝塔维护hosts：https://github.com/rentianyu/Ad-set-hosts   
-7. StevenBlack：https://github.com/StevenBlack/hosts   
-8. 海阔影视去广告host
-9. ilpl：https://github.com/ilpl/ad-hosts
-10. iOSAdblockList：https://github.com/BlackJack8/iOSAdblockList
-11. Github520(Github加速)：https://github.com/521xueweihan/GitHub520
-12. 冷莫 hosts：[http://dns.trli.club/hosts.html](http://dns.trli.club/hosts.html)
+5. 小贝塔维护hosts：https://github.com/rentianyu/Ad-set-hosts   
+6. StevenBlack：https://github.com/StevenBlack/hosts   
+7. 海阔影视去广告hosts
+8. ilpl：https://github.com/ilpl/ad-hosts
+9. iOSAdblockList：https://github.com/BlackJack8/iOSAdblockList
+10. Github520(Github加速)：https://github.com/521xueweihan/GitHub520
+
+
+## 推荐一个去广告hosts（体积超大超全）
+- 冷莫(trli)的规则唯一一个提供全球比较全的库，规则是24小时更新。 
+- 冷莫规则文件库:[https://trli.coding.net/publi](https://trli.coding.net/publi)
+- 冷莫规则说明库:[https://github.com/Potterli20/hosts](https://github.com/Potterli20/hosts)
+
 
 ## 访问量
 
